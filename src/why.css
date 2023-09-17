@@ -1,0 +1,85 @@
+.background-image {
+    background: url('./Images/im4.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+  }
+  .vertical-line{
+    width: 0;
+     height: 1.1px;
+     position: absolute;
+     /* left: 45%;
+     bottom: -160%;
+     margin-left: -3px; */
+     background-color:rgb(187, 187, 185); 
+     
+ }
+ .check-icon{
+    margin-right: 10px;
+    font-size: 20px;
+    color: #0171d3;
+ }
+ .circle1{
+    margin-top: -20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color:#FFCBC4;
+}
+.circle2{
+    margin-top: -30%;
+   margin-left:110%;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    background-color:#89ff99;
+}
+.circle3{
+    margin-top: -5%;
+   margin-left:88%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color:blue;
+    opacity: 0.2;
+    
+}
+.circle4{
+     width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    background-color:orangered;
+    opacity: 0.3;
+    margin-top: 6%;
+}
+.circle5{
+    margin-top: 0%;
+    margin-left:85%;
+    width: 40px;
+   height: 40px;
+   border-radius: 50px;
+   background-color:rgb(88, 231, 59);
+   opacity: 0.3;
+}
+.circle6{
+    margin-top: 10%;
+    
+    margin-left:-50%;
+    width: 40px;
+   height: 40px;
+   border-radius: 50px;
+   background-color:violet;
+   opacity: 0.3;
+}
+.circle7{
+    margin-top: -13%;
+    margin-left:90%;
+    width: 80px;
+   height: 80px;
+   border-radius: 50px;
+   background-color:blue;
+    opacity: 0.2;
+}
+
+
+

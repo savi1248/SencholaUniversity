@@ -1,0 +1,214 @@
+.mg-5{
+    margin:6rem 9rem;
+    font-weight: bolder;
+   
+    height: 90vh;
+   
+}
+.form{
+    position: absolute;
+    /* max-width: 430px; */
+    width: 75%;
+     font-size: 4px;
+     font-weight: 200;
+    padding: 8px ;
+
+  
+}
+
+.required{
+    content: '*';
+    color:red;
+    font-size: small;
+}
+
+.field button{
+ width: 31.2%;
+   padding:5px ;
+   border: none;
+   background-color:#295e31;
+   color: white;
+   margin-top: 30px;
+   font-size: 14px;
+   font-weight: 600;
+}
+.field input{
+   border-radius: 3px;
+    border: 1px solid#CACACA;
+    
+}
+a.forgot-pass{
+    text-align:center;
+
+    margin-top: 10px;
+   margin-left:20%;
+    
+    
+   text-decoration: none;
+   font-size: 11px;
+   color: #0171d3;
+    
+    font-weight: 500;
+}
+/* .form-link{
+    text-decoration: none;
+    font-size: 11px;
+    color: #0171d3;
+    text-align: center;
+    font-weight: 500;
+} */
+
+.dark-checkbox input[type="checkbox"]:checked {
+    background-color: #002B4E !important;
+    color: white;
+}
+.signup-link{
+    text-decoration: none;
+    
+    color: #0171d3;
+    font-weight: 500;
+    font-size: 13px;
+    
+}
+.form-li{
+    text-align:start;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+.eye-icon{
+    font-size: 18px;
+    color: #8b8b8b;
+   position: absolute;
+   
+   right: 72%;
+   padding: 5px;
+   cursor: pointer;
+}
+form .field{
+    position: relative;
+}
+
+
+.spans {
+    margin: 10px auto;
+    width: 250px;
+    margin-left: 0.5%;
+  }
+  
+  .or {
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .or:before,
+  .or:after {
+    position: absolute;
+    content: " ";
+    bottom: 10px;
+    width: 40%;
+    height: 1%;
+    background: grey;
+  }
+  .or:after {
+    right: 0%;
+  }
+  .or:before {
+    left: 0;
+  }
+ 
+.form-group .form-remember {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0;
+    text-transform: none;
+}
+  
+.media-options{
+    display: flex;
+}
+img.google-img{
+    height: 15px;
+    width: 20px;
+    object-fit: cover;
+}
+a.google{
+    border: 1px  solid #CACACA;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px 5px ; 
+    margin-right: 8px;
+   
+}
+a.google span{
+    font-weight: 500;
+    font-size: 11.5px;
+    padding: 3px; 
+    color:black;
+}
+img.apple-img{
+    height: 18px;
+    width: 18px;
+    object-fit: cover;
+    
+    
+}
+a.apple{
+    border: 1px  solid #CACACA;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px 5px ; 
+    
+   
+}
+a.apple span{
+    font-weight: 500;
+    font-size: 11.5px;
+   
+    padding: 3px; 
+    color:black;
+}
+.image img{
+   width: 350px;
+   height: 400px;
+    position: absolute;
+    right: 0;
+    top: -30%;
+    left: 40%;
+}
+
+@media only screen and (max-width: 400px){
+    .form{
+        padding: 15px 10px;
+    }
+    .eye-icon{
+        padding:  15px 10px;
+    }
+    .input{
+        padding:  15px  10px;
+    }
+    .image img{
+        width: 100%;
+    }
+    .media-options{
+      margin-left: 10px;
+    }
+    .h4
+    {
+        padding:   15px 10px;
+    }
+    .form-li
+    {
+        padding:   15px 10px;
+    }
+    .signup-link
+    {
+    padding:    15px 10px;
+    font-size: 10px;
+    }
+
+    
+}
