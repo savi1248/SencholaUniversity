@@ -68,10 +68,7 @@ const Whysenchola = () => {
                 }}
                 type="submit"
               >
-                {/* <BsPlayCircle
-                  className
-                  style={{ fontSize: "165%", backgroundColor: "azure" }}
-                /> */}
+                
                 <i class='bx bx-play-circle bx-flip-vertical' style={{ color: 'white', fontSize: "165%" }}  ></i>
 
                 &nbsp;Watch Video
@@ -105,12 +102,12 @@ const Whysenchola = () => {
                   }}
                 >
                   <span style={{ padding: "2%", fontWeight: "600" }}>
-                    &#10003;
+                  <i class='bx bx-check' style={{color:'#302e2e', fontSize:"22px",  fontWeight:"800", }} ></i>
                   </span>
-                  Build remote teams &nbsp;&nbsp;&nbsp;&nbsp;faster with
+                  Build remote teams &nbsp;faster with
                   senchola<br></br>
                   <span style={{ padding: "2%", fontWeight: "600" }}>
-                    &#10003;
+                  <i class='bx bx-check' style={{color:'#302e2e', fontSize:"22px",  fontWeight:"800", }} ></i>
                   </span>
                   Expert Trainee
                 </span>
@@ -272,7 +269,7 @@ const Whysenchola = () => {
                 backgroundColor: "rgba(227, 222, 222,0.8)",
                 padding: "4%",
                 fontWeight: "400",
-                width: "220px",
+                width: "20px",
                 height: "330px",
                 marginTop: "20px",
                 marginRight: "50px",
@@ -429,12 +426,13 @@ const Whysenchola = () => {
                 >
                     
                   <span style={{ padding: "2%", fontWeight: "600" }}>
-                    &#10003;
+                
+                    <i class='bx bx-check' style={{color:'#302e2e', fontSize:"22px",  fontWeight:"800", }} ></i>
                   </span>
-                  Build remote teams &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;faster with
+                  Build remote teams faster with
                   senchola<br></br>
                   <span style={{ padding: "2%", fontWeight: "600" }}>
-                    &#10003;
+                  <i class='bx bx-check' style={{color:'#302e2e', fontSize:"22px",  fontWeight:"800", }} ></i>
                   </span>
                   Expert Trainee
                 </span>
@@ -453,7 +451,7 @@ const Whysenchola = () => {
                 Lorem integer dapibus rhoncus fusce nisi augue fringilla.
               </h3>
               
-              <p style={{ width: "75%", color: "grey" }}>
+              <p style={{ width: "75%", color: "black" }}>
                 Lorem ipsum dolor sit amet consectetur. Cras lacinia ante
                 tincidunt donec praesent pellentesque bibendum. Consectetur
                 ipsum et id nullam interdum. Lorem vel mauris in a lorem
