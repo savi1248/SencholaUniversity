@@ -80,6 +80,15 @@
    background-color:blue;
     opacity: 0.2;
 }
+.vl{
+    border-left: 2px solid grey;
+    height: 200px;
+    left: 48%;
+    bottom: -160%; 
+   
+    position: absolute;
+     
+ }
 
 
 

@@ -99,6 +99,7 @@ const Whysenchola = () => {
                     marginLeft: "-3%",
                     fontWeight: "500",
                     fontSize: "90%",
+                    
                   }}
                 >
                   <span style={{ padding: "2%", fontWeight: "600" }}>
@@ -186,10 +187,16 @@ const Whysenchola = () => {
               <i class='bx bx-book-open bx-rotate-90' style={{ color: '#337e33', fontSize: "17px",
         
         marginLeft:"-1%" }} ></i>
+        
             </Col>
+            <div className='vl' >
+
+</div>
+
           
             
             <Col style={{ marginTop: "8%" }}>
+                
             <i class='bx bx-book-open bx-rotate-90' style={{ color: '#337e33', fontSize: "17px",
         
         marginLeft:"10%" }} ></i>
@@ -238,15 +245,20 @@ const Whysenchola = () => {
         <Container>
           <Row>
             <Col
-              className="rounded-3 "
+              className=" "
               style={{
-                backgroundColor: "rgba(227, 222, 222,0.8)",
+                // backgroundColor: "rgba(227, 222, 222,0.8)",
+                backgroundColor: "white",
+                opacity:"0.7",
+                boxShadow: "2px 2px 6px black",
                 padding: "4%",
                 fontWeight: "400",
-                width: "210px",
+                width: "220px",
                 height: "330px",
                 marginTop: "-110px",
                 marginRight: "50px",
+                borderRadius:"20px"
+                // borderRadius:"15px"
               }}
             >
               <div style={iconStyle}>
@@ -264,15 +276,18 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className="rounded-3 "
+              className=" "
               style={{
-                backgroundColor: "rgba(227, 222, 222,0.8)",
+                backgroundColor: "white",
+                opacity:"0.7",
+                boxShadow: "2px 2px 6px black",
                 padding: "4%",
                 fontWeight: "400",
-                width: "20px",
+                // width: "220px",
                 height: "330px",
                 marginTop: "20px",
                 marginRight: "50px",
+                borderRadius:"20px"
               }}
             >
               <div style={iconStyle}>
@@ -290,15 +305,18 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className="rounded-3 "
+              className=" "
               style={{
-                backgroundColor: "rgba(227, 222, 222,0.8)",
+                backgroundColor: "white",
+                opacity:"0.7",
+                boxShadow: "2px 2px 6px black",
                 padding: "4%",
                 fontWeight: "400",
                 width: "220px",
                 height: "330px",
                 marginTop: "-110px",
                 marginRight: "50px",
+                borderRadius:"20px"
               }}
             >
               <div style={iconStyle}>
@@ -318,15 +336,18 @@ const Whysenchola = () => {
           </Row>
           <Row>
             <Col
-              className="rounded-3 "
+              className=""
               style={{
-                backgroundColor: "rgba(227, 222, 222,0.8)",
+                backgroundColor: "white",
+                opacity:"0.7",
+                boxShadow: "2px 2px 6px black",
                 padding: "4%",
                 fontWeight: "400",
                 width: "220px",
                 height: "330px",
                 marginTop: "-110px",
                 marginRight: "50px",
+                borderRadius:"20px"
               }}
             >
               <div style={iconStyle}>
@@ -344,15 +365,18 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className="rounded-3"
+              className=""
               style={{
-                backgroundColor: "rgba(227, 222, 222,0.8)",
+                backgroundColor: "white",
+                opacity:"0.7",
+                boxShadow: "2px 2px 6px black",
                 padding: "4%",
                 fontWeight: "400",
                 width: "220px",
                 height: "330px",
                 marginTop: "20px",
                 marginRight: "50px",
+                borderRadius:"20px"
               }}
             >
               <div style={iconStyle}>
@@ -370,25 +394,28 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className="rounded-3 "
+              className=" "
               style={{
-                backgroundColor: "rgba(227, 222, 222,0.8)",
+                backgroundColor: "white",
+                opacity:"0.7",
+                boxShadow: "2px 2px 6px black",
                 padding: "4%",
                 fontWeight: "400",
                 width: "220px",
                 height: "330px",
                 marginTop: "-110px",
                 marginRight: "50px",
+                borderRadius:"20px"
               }}
             >
               <div style={iconStyle}>
               <i class='bx bx-desktop' style={{ color: ' #e38d25', fontSize: "30px",  width:"30px",
-                 height:"30px",  backgroundColor:"#F0E68C", borderRadius:"8px" }}  ></i>
+                   backgroundColor:"#F0E68C", borderRadius:"8px" }}  ></i>
               </div>
-              <h3 style={{ fontWeight: "800", fontSize: "105%" }}>
+              <h3 style={{ fontWeight: "800", fontSize: "105%", marginTop: "5px", }}>
                 Exclusive Professional Marketplace
               </h3>
-              <p style={{ fontSize: "90%" }}>
+              <p style={{ fontSize: "90%",marginTop: "20px", }}>
                 Lorem vivamus amet, Eu faucibus mattis sit vestibulum velit ut.
                 Varius magna ultricios varius vitao adipiscing imperdiot
                 ridiculus. lpsum vitae imperdiet turpis luctus, Mi risus sed sed
@@ -415,7 +442,9 @@ const Whysenchola = () => {
                 <span
                   className="rounded-3 pe-0 ps-0"
                   style={{
-                    backgroundColor: "rgba(227, 222, 222,0.5)",
+                   backgroundColor: "white",
+                opacity:"0.7",
+                boxShadow: "2px 2px 6px black",
                     position: "absolute",
                     marginTop: "35%",
                     marginLeft: "-13%",

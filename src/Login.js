@@ -88,10 +88,10 @@ const Login = () => {
               </a>
             
  
-              <a href="#" className='field apple
-               '>
+              <a href="#" className='field apple '>
                 <img src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo-500x281.png" alt=""
                   className='apple-img' />
+                  
                 <span >sign in with apple</span>
               </a>
               </div>
