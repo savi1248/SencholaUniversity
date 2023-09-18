@@ -14,7 +14,7 @@ function Footer() {
  <div className='container-fluid footer-total'>
     <div className='container col-ft '>
 
-{/* Col1 */}
+
        <div className='col-ft1'>
             <h4>Senchola</h4>
              <p>We help ambitious companies scale
@@ -25,7 +25,7 @@ function Footer() {
 
        </div>
 
-{/* Col2 */}
+
        <div className='col-ft2'>
               <div className='ft2-a'>
                     <h6>Use Cases</h6>
@@ -58,7 +58,7 @@ function Footer() {
               </div>
        </div>
 
-{/* Col3 */}
+
        <div className='col-ft3'>
                <div className='ft3-a'>
                      <p> Connect With Senchola Technologies</p>

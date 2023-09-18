@@ -79,11 +79,13 @@ const Login = () => {
                </div>
                
 
-<Row>
-<Col>
+
+
   
 <div className='mid'>
+
            <div className='media-options'>
+           
               <a href="#" className='field google'>
                 <img src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=595&height=400&name=image8-2.jpg" alt=""
                   className='google-img' />
@@ -96,13 +98,13 @@ const Login = () => {
                   
                 <span >sign in with apple</span>
               </a>
-            
+              
               </div>
              
               </div>
-              </Col>
+             
               
-              </Row>
+              
            <br /> br
 <div className='form-li'>
               <span>Don't have an account?

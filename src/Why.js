@@ -16,8 +16,8 @@ import im7 from './Images/im7.png'
 import { RiTeamFill } from 'react-icons/ri';
 import { FaHandshakeAngle } from 'react-icons/fa6';
 
-const Whysenchola = () => {
-  const iconSize = "3rem"; // Adjust the size as needed
+const Why = () => {
+  const iconSize = "3rem"; 
 
   const iconStyle = {
     fontSize: iconSize,
@@ -245,7 +245,7 @@ const Whysenchola = () => {
         <Container>
           <Row>
             <Col
-              className="card "
+              className=""
               style={{
                 // backgroundColor: "rgba(227, 222, 222,0.8)",
                 backgroundColor: "white",
@@ -276,14 +276,14 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className="card "
+              className=""
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",
                 boxShadow: "2px 2px 6px black",
                 padding: "4%",
                 fontWeight: "400",
-                // width: "220px",
+                
                 height: "330px",
                 marginTop: "20px",
                 marginRight: "50px",
@@ -305,7 +305,7 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className="card "
+              className=""
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",
@@ -323,12 +323,12 @@ const Whysenchola = () => {
               <i class='bx bx-message-detail msg-icon ' style={{ color: '#f17a4b', fontSize: "30px", 
                  width:"30px", height:"30px",  backgroundColor:"#FFE4B5", borderRadius:"8px" }}  ></i>
               </div>
-              <h3 style={{ fontWeight: "800", fontSize: "105%" }}>
+              <h3  className=""   style={{ fontWeight: "800", fontSize: "105%" }}>
                 Elastic Freelancer Model
               </h3>
               <p style={{ fontSize: "90%" }}>
                 Lorem vivamus amet, Eu faucibus mattis sit vestibulum velit ut.
-                Varius magna ultricios varius vitao adipiscing imperdiot
+                Varius ma gna ultricios varius vitao adipiscing imperdiot
                 ridiculus. lpsum vitae imperdiet turpis luctus, Mi risus sed sed
                 fringilla ligula a. orci proin arcu egestas et commodo placerat.
               </p>
@@ -336,7 +336,7 @@ const Whysenchola = () => {
           </Row>
           <Row>
             <Col
-              className="card"
+              className=""
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",
@@ -365,7 +365,7 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className="card"
+              className=""
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",
@@ -394,7 +394,7 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className="card "
+              className=""
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",
@@ -434,7 +434,7 @@ const Whysenchola = () => {
           <Row className="mt-5">
           
             <Col>
-              <Figure>
+              <Figure className="pic">
                 <Figure.Image
                   style={{ width: "80%", marginTop: "25%" }}
                   src={im5}
@@ -476,11 +476,11 @@ const Whysenchola = () => {
         
                marginLeft:"-10%" }} ></i>
             
-              <h3 style={{ width: "75%", fontWeight: "600" }}>
+              <h3 className="para" style={{ width: "75%", fontWeight: "600" }}>
                 Lorem integer dapibus rhoncus fusce nisi augue fringilla.
               </h3>
               
-              <p style={{ width: "75%", color: "black" }}>
+              <p    className="par" style={{ width: "75%", color: "black" }}>
                 Lorem ipsum dolor sit amet consectetur. Cras lacinia ante
                 tincidunt donec praesent pellentesque bibendum. Consectetur
                 ipsum et id nullam interdum. Lorem vel mauris in a lorem
@@ -563,4 +563,4 @@ const Whysenchola = () => {
   );
 };
 
-export default Whysenchola;
+export default Why;

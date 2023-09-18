@@ -81,20 +81,50 @@
     opacity: 0.2;
 }
 .vl{
-    border-left: 2px solid grey;
-    height: 200px;
-    left: 48%;
-    bottom: -160%; 
-   
-    position: absolute;
+    
+        border-left: 2px solid grey;
+        height: 200px;
+        left: 48%;
+        bottom: -175%; 
+       
+        position: absolute;
+         
+     }
+
+ @media (max-width: 990px) {
+
+    .background-image {
+        background: url('./Images/im4.png');
+        background-size: cover;
+        background-position:  center;
+        height: 280vh;
+      }
+      .round {
+       
+       
+        margin-top:50px;
+        border-radius:20px;
+      }
+
+ }
+ @media (max-width: 800px) and (min-width: 300px){
+ .pic{
+     width:250%;
      
  }
-
- /* @media (max-width: 990px) {
-
-.card{
-        width: 100%;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
 }
- } */
+@media (max-width: 800px) and (min-width: 300px){
+    .par{
+        
+         font-weight:600;
+         /* margin-top: 50%;
+         */
+    }
+    .para{
+        
+        font-weight:600;
+        margin-top: 190%;
+       
+   }
+}
+   
