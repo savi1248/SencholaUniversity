@@ -7,7 +7,7 @@
 }
 .form{
     position: absolute;
-    /* max-width: 430px; */
+    
     width: 75%;
      font-size: 4px;
      font-weight: 200;
@@ -50,13 +50,7 @@ a.forgot-pass{
     
     font-weight: 500;
 }
-/* .form-link{
-    text-decoration: none;
-    font-size: 11px;
-    color: #0171d3;
-    text-align: center;
-    font-weight: 500;
-} */
+
 
 .dark-checkbox input[type="checkbox"]:checked {
     background-color: #002B4E !important;
@@ -177,8 +171,8 @@ a.apple span{
     left: 40%;
 }
 
-@media only screen and (max-width: 400px){
-    .form{
+@media (max-width: 990px) {
+    /* .form{
         padding: 15px 10px;
     }
     .eye-icon{
@@ -205,7 +199,38 @@ a.apple span{
     {
     padding:    15px 10px;
     font-size: 10px;
+    } */
+    .image img{
+        width: 18rem;
+        height: 19rem;
+         position: absolute;
+         right: 0;
+         top: -20%;
+         left: 40%;
+     }
+     .media-options{
+        margin-left: -1px;
+      }
+     img.apple-img{
+        height: 18px;
+        width: 18px;
+        object-fit: cover;
     }
-
-    
-}
+    a.apple{
+        border: 1px  solid #CACACA;
+        text-decoration: none;
+        border-radius: 5px;
+        padding: 0px ; 
+        
+       
+    }
+    a.apple span{
+        font-weight: 500;
+        font-size: 10px;
+       
+        padding: 3px; 
+        color:black;
+    }
+    }
+     
+   

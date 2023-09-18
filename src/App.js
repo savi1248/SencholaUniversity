@@ -3,7 +3,7 @@ import './App.css';
 
 import Login from './Login';
 
-// import Senchola from './Senchola';
+import Footer from './Footer'
 import Why from './Why';
 
 function App() {
@@ -11,8 +11,9 @@ function App() {
     <div className="App">
       
       <Login />
-      {/* <Senchola /> */}
+ 
       <Why />
+      <Footer/>
 
 
      

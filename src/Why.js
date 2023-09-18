@@ -245,7 +245,7 @@ const Whysenchola = () => {
         <Container>
           <Row>
             <Col
-              className=" "
+              className="card "
               style={{
                 // backgroundColor: "rgba(227, 222, 222,0.8)",
                 backgroundColor: "white",
@@ -276,7 +276,7 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className=" "
+              className="card "
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",
@@ -305,7 +305,7 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className=" "
+              className="card "
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",
@@ -336,7 +336,7 @@ const Whysenchola = () => {
           </Row>
           <Row>
             <Col
-              className=""
+              className="card"
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",
@@ -365,7 +365,7 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className=""
+              className="card"
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",
@@ -394,7 +394,7 @@ const Whysenchola = () => {
               </p>
             </Col>
             <Col
-              className=" "
+              className="card "
               style={{
                 backgroundColor: "white",
                 opacity:"0.7",

@@ -2,7 +2,8 @@ import React from 'react'
 import './login.css'
 
 import im1 from './Images/im1.png'
-
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import 'boxicons';
 
 const Login = () => {
@@ -78,7 +79,9 @@ const Login = () => {
                </div>
                
 
-
+<Row>
+<Col>
+  
 <div className='mid'>
            <div className='media-options'>
               <a href="#" className='field google'>
@@ -86,16 +89,20 @@ const Login = () => {
                   className='google-img' />
                 <span>sign in with google</span>
               </a>
-            
- 
+              
               <a href="#" className='field apple '>
                 <img src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo-500x281.png" alt=""
                   className='apple-img' />
                   
                 <span >sign in with apple</span>
               </a>
+            
               </div>
+             
               </div>
+              </Col>
+              
+              </Row>
            <br /> br
 <div className='form-li'>
               <span>Don't have an account?
