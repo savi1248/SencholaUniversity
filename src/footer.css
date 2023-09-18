@@ -29,7 +29,7 @@
     font-size: 0.75rem;
 }
 .footer-icon{
-    color: green;
+    color:#295e31;
     margin-top: -2.2rem;
     margin-left: 85%;
     font-size: larger;
@@ -47,8 +47,8 @@
 }
 .footer-hr{
   
-  color: white;
-  background-color: white;
+  color:grey;
+  
   opacity: 0.9;
 }
 
@@ -80,7 +80,7 @@
         padding-bottom: 2rem;
     }
     .col-ft3{
-        width: 50%;
+        width: 100%;
     }
     .footer-sm-icons{
         display: flex;
