@@ -19,7 +19,7 @@ function Footer() {
             <h4>Senchola</h4>
              <p>We help ambitious companies scale
                 through our exclusive global network of
-             freelance talent, outsourcing services
+             freelance talent, outsoucing services
                  and market insights. Join Senchola to 
                 accelerate and scale your business growth.</p>
 
