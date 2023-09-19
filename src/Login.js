@@ -1,129 +1,185 @@
-import React from 'react'
-import './login.css'
-
+import React, { useState } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Container, Row, Col, Form, Button, Figure } from "react-bootstrap";
+import { FcGoogle } from "react-icons/fc";
+import { BsApple } from "react-icons/bs";
 import im1 from './Images/im1.png'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import 'boxicons';
+
 
 const Login = () => {
-  return (
   
-    <section className='mg-5' >
 
-
-      <div className=''>
-        
-        <h1 style={{ fontWeight: "700" }}>LOGIN FORM</h1>
-
-        
-          <h4 style={{ fontWeight: "500", marginTop: "2px" }}>Welcome back! <br />
+  return (
+    <div>
+     
+      <Container>
+        <Row className="mt-5 mb-5 ms-5">
+          <Col className="ml-200">
+            <h1 style={{ fontWeight: "700" }}>LOGIN FORM</h1> <br />
+            <h4 style={{ fontWeight: "500" }}>Welcome back! <br />
             <span style={{ fontSize: '13px', fontWeight: "400", color: 'grey' }}>Enter your Credentials Details
               to access your account</span></h4>
-
-          <form action="#" className='col'>
-            <div className='form login'>
-              <div className='field input-field' id='contact-form' style={{ marginTop: "2px" }}>
-                <label for="fname" style={{ fontSize: '13px', fontWeight: "500" }}>Email address</label>
-                <span className='required'>   *</span>
-                <br />
-                <input style={{
-                  fontSize: '10px', fontWeight: "200", padding: "8px ", width: "30%",
-                  marginBottom: "8px"
-                }}
-                  type="email" className='input'
-                  placeholder='Enter your email' required />
-                <br />
-
-              </div>
-              <div className='field input-field '>
-                <label for="fname" style={{ fontSize: '13px', fontWeight: "500" }}>Password</label>
-                <span className='required'>   *</span>
-                <br />
-
-                <input style={{
-                  fontSize: '10px', fontWeight: "200", padding: "8px ", width: "30%",
-                  marginBottom: "8px"
-                }}
-                  type="email" className='password' placeholder='Enter your password' required
+            <Form style={{ width: "350px" }}>
+              
+              <Form.Group controlId="form.Email">
+                <Form.Label
+                  style={{
+                    fontSize: "13px",
+                    fontWeight: "500",
+                    marginTop: "20px",
+                  }}
+                >
+                  Email address<span style={{ color: "red" }}>*</span>
+                </Form.Label>
+                <Form.Control
+                  className="border-1 shadow mb-0.5 mt-0.5 p-2 ps-2"
+                  size="sm"
+                  style={{ fontSize: "11px", height: "30px" }}
+                  type="email"
+                  placeholder="Enter your email"
+                  required
                 />
-                <i class='bx bx-hide eye-icon'></i>
+              </Form.Group>
+              <Form.Group controlId="form.password">
+                <Form.Label
+                  style={{
+                    fontSize: "13px",
+                    fontWeight: "500",
+                    marginTop: "20px",
+                  }}
+                >
+                  Password<span style={{ color: "red" }}>*</span>
+                </Form.Label>
+                <div className="input-group">
+                  <Form.Control
+                    className="border-1 shadow  p-2 ps-2"
+                    size="sm"
+                    style={{ fontSize: "11px", height: "30px" }}
+                    
+                    placeholder="Enter your password"
+                    required
+                    
+                  />
+                 
+                    <i class='bx bx-hide eye-icon'
+                    style={{ fontSize: "17px",
+                    left:"90%",
+                    position: "absolute",
+                      right: "72%",
+                     padding: "5px",
+                     cursor: "pointer",
+                     color:'#8b8b8b'
+                  }}
+                    ></i>
 
-
+                </div>
+              </Form.Group>
+              <div >
+                <a href="#" className=''
+               style={{
+               textAlign:"center",
+               marginTop: "10px",
+               marginLeft:"70%",
+               fontSize:" 11px",
+               textDecoration:'none'
+              }} >Forgot password!</a>
               </div>
-
-
-              <div className='form-link'>
-                <a href="#" className='forgot-pass'>Forgot password!</a>
-              </div>
-              <div className='form-group'>
-
-                <label className='form-remember'>
-                  <input type="checkbox" className='check' />
-                  Reminder me
-
-                </label>
-              </div>
-
-
-              <div className='field button-field '>
-                <button>LOGIN</button>
-              </div> 
-              <div className='line'>
-                
-           </div>
-          
-               <div className='spans'>
-                <p className='or'>or</p>
-
-               </div>
+              <input
+                style={{
+                  color: "grey",
+                  backgroundColor: "grey",
+                  width: "20px",
+                  marginTop: "30px",
+                }}
+                type="checkbox"
+                inline
+              />
+             
+              <span style={{ fontSize: "11px", color: "black", fontWeight:"500" }}>
                
+                Reminder me
 
-
-
-  
-<div className='mid'>
-
-           <div className='media-options'>
-           
-              <a href="#" className='field google'>
-                <img src="https://53.fs1.hubspotusercontent-na1.net/hub/53/hubfs/image8-2.jpg?width=595&height=400&name=image8-2.jpg" alt=""
-                  className='google-img' />
-                <span>sign in with google</span>
-              </a>
-              
-              <a href="#" className='field apple '>
-                <img src="https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo-500x281.png" alt=""
-                  className='apple-img' />
-                  
-                <span >sign in with apple</span>
-              </a>
-              
-              </div>
-             
-              </div>
-             
-              
-              
-           <br /> br
-<div className='form-li'>
-              <span>Don't have an account?
-                <a href="#" className='signup-link'>  Sign up</a>
+                
               </span>
+              <Button
+                className="mt-4"
+               
+                style={{
+                 
+                  width: "350px",
+                  fontWeight: "600",
+                  backgroundColor:"#295e31",
+                  border:'none',
+                  borderRadius:"2px"
+                }}
+              >
+                LOGIN
+              </Button>
 
-            </div> 
-            <div className='image' >
+              <div className="d-flex mb-1 mt-3">
+                <hr className="border-2 " style={{ width: "40%", color:'black' }} />
+                <span className=""
+               style={{ color: "black", fontWeight:"500" }} >&nbsp; Or &nbsp;</span>
+                <hr className="border-2" style={{ width: "40%" }} />
+              </div>
+              <Row>
+                <Col className=" mt-3">
+                <Button
+                    className="text-dark bg-white ps-1 pe-1"
+                    style={{ fontSize: "10px", borderColor: "gray", borderRadius:'10px',
+                    padding: '5px 20px ', border: "1px  solid #CACACA",  }}
+                  >
+                    <FcGoogle style={{ fontSize: "1.5em",  }} />
+                    &nbsp;<b>sign in with google</b>
+                  </Button>
+                </Col>
+                <Col className=" mt-3">
+                  <Button
+                    className="text-dark bg-white ps-1 pe-1"
+                    style={{ fontSize: "10px", borderColor: "gray", borderRadius:'10px',
+                    padding: '5px 20px ', border: "1px  solid #CACACA",  }}
+                  >
+                    <BsApple style={{ fontSize: "1.5em",  }} />
+                    &nbsp;<b>sign in with Apple</b>
+                  </Button>
+                </Col>
+              </Row>
+              <p
+                style={{ fontSize: "14px", marginTop: "20px" ,
+                color: "black", fontWeight:"500"}}
+                className="text-center"
+             
+              >
+               Don't have an account?
+                <span className="text-primary"
+                style={{
+                 fontSize:" 12px",
+                  textDecoration:'none'
+                 }}
+                >Signup</span>
+              </p>
+            </Form>
+          </Col>
 
-<img src={im1} alt="" />
-</div>
-    
-            
-             </div>
-          </form>
-         
-           </div>
-           </section>
-    )
+          <Col md={7} className="justify-content-end ">
+            <Figure>
+              <Figure.Image
+                style={{
+                  height: "450px",
+                  width: "450px",
+                  marginLeft: "2px",
+                   
+                }}
+                src={im1}
+              />
+            </Figure>
+          </Col>
+        </Row>
+        
+      </Container>
+      
+    </div>
+  );
 }
 
-export default Login
+export default Login;

@@ -84,6 +84,7 @@ const Why = () => {
                 <Figure.Image
                   style={{
                     width: "40%",
+                    height:"30%",
                     marginTop: "30%",
                     marginRight: "2.5%",
                   }}
