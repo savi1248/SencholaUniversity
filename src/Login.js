@@ -169,7 +169,7 @@ const Login = () => {
                   marginLeft: "2px",
                    
                 }}
-                src={im1}
+                src={require('./Senchola images1/2/Rectangle 4597.png')}
               />
             </Figure>
           </Col>

@@ -2,17 +2,18 @@ import React from 'react'
 import './why.css'
 import { BsBookHalf} from "react-icons/bs";
 import {PiPlayCircleBold} from "react-icons/pi";
-import im3 from './Images/im3.png'
-import im2 from './Images/im2.png'
-import im6 from './Images/im6.png'
 import { RiTeamFill } from 'react-icons/ri';
 import { FaHandshakeAngle } from 'react-icons/fa6';
-import im8 from './Images/im8.png'
-import im9 from './Images/im9.png'
-import im10 from './Images/im10.png'
-import im11 from './Images/im11.png'
-import im5 from './Images/im5.png'
-import im7 from './Images/im7.png'
+// import im3 from './Images/im3.png'
+// import im2 from './Images/im2.png'
+// import im6 from './Images/im6.png'
+
+// import im8 from './Images/im8.png'
+// import im9 from './Images/im9.png'
+// import im10 from './Images/im10.png'
+// import im11 from './Images/im11.png'
+// import im5 from './Images/im5.png'
+// import im7 from './Images/im7.png'
 
 const Whysenchola = () => {
     return (
@@ -39,10 +40,10 @@ const Whysenchola = () => {
                 
                 <div className="col-lg-6 main-images">
                     <div className="im2">
-                        <img src={im2} className='img-fluid' alt="im2" />
+                        <img src={require('./Senchola images1/1/Rectangle 4.png')} className='img-fluid' alt="im2" />
                     </div>
                     <div className="im3">
-                        <img src={im3} className="img-fluid" alt="im3" />
+                        <img src={require('./Senchola images1/1/Rectangle 5.png')} className="img-fluid" alt="im3" />
                     </div>
 
 
@@ -218,7 +219,7 @@ const Whysenchola = () => {
                 
                 <div className="col-lg-6 col-sm-12 ps-5">
 
-                    <img src={im5} height={470} width={470} className='img-fluid' alt="" />
+                    <img src={require('./Senchola images1/1/Rectangle 4611.png')} height={470} width={470} className='img-fluid' alt="" />
                 </div>
                 
                 <div className="col-lg-6 col-sm-12 dummy-text text-justify">
@@ -248,22 +249,22 @@ const Whysenchola = () => {
 
             <div className="grid-gallery">
                      <div className="wide">
-                        <img src={im6} alt="" />
+                        <img src={require('./Senchola images1/2/Rectangle 4605.png')} alt="" />
                      </div>
                      <div className="tall">
-                        <img src={im7} alt="" />
+                        <img src={require('./Senchola images1/1/Rectangle 4609.png')} alt="" />
                      </div>
                      <div className="tall">
-                        <img src={im8} alt="" />
+                        <img src={require('./Senchola images1/1/Rectangle 4607.png')} alt="" />
                      </div>
                      <div className="wide2">
-                        <img src={im9} alt="" />
+                        <img src={require('./Senchola images1/3/Rectangle 4629.png')} alt="" />
                      </div>
                      <div className="wide3">
-                        <img src={im10} alt="" />
+                        <img src={require('./Senchola images1/1/Rectangle 4608.png')} alt="" />
                      </div>
                      <div className="wide4">
-                        <img src={im11} alt="" />
+                        <img src={require('./Senchola images1/1/Rectangle 4610.png')} alt="" />
                      </div>
             </div>
 
