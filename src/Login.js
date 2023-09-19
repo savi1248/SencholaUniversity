@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Form, Button, Figure } from "react-bootstrap";
 import { FcGoogle } from "react-icons/fc";
@@ -108,7 +107,7 @@ const Login = () => {
                  
                   width: "350px",
                   fontWeight: "600",
-                  backgroundColor:"#295e31",
+                  backgroundColor:"#246b3c",
                   border:'none',
                   borderRadius:"2px"
                 }}
