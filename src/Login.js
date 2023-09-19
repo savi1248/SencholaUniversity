@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container, Row, Col, Form, Button, Figure } from "react-bootstrap";
 import { FcGoogle } from "react-icons/fc";
